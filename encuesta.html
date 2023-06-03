@@ -1,0 +1,34 @@
+
+<html>
+<head>
+  <title>Cuestionario de Opiniones</title>
+</head>
+<body>
+  <h1>Cuestionario de Opiniones</h1>
+    <form method="post" action="enviar_correo.php">
+    <h2>1. ¿Cuál es tu nombre?</h2>
+    <input type="text" name="nombre">
+    
+    <h2>2. ¿Cuál es tu edad?</h2>
+    <input type="number" name="edad">
+    
+    <h2>3. ¿Cuál es tu opinión sobre nuestro sitio web?</h2>
+    <textarea name="opinion" rows="5" cols="40"></textarea>
+    
+    <h2>4. ¿Recomendarías nuestro sitio web a otros?</h2>
+    <label>
+      <input type="radio" name="recomendar" value="sí"> Sí
+    </label>
+    <label>
+      <input type="radio" name="recomendar" value="no"> No
+    </label>
+    
+    <h2>5. ¿Tienes algún comentario adicional?</h2>
+    <textarea name="comentarios" rows="5" cols="40"></textarea>
+    
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+     <a href=SERIES.html>volver</a>
+</body>
+</html>
